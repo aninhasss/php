@@ -61,7 +61,6 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $peso = $_POST["peso"];
             $alt = $_POST["altura"];
-
             $imc = ($peso/($alt**2));
             $Pmin = (18.5*($alt**2));
             $Pmax = (24.9*($alt**2));
