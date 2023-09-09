@@ -51,7 +51,7 @@
 
         <form method="POST">
             <input name= tabuada id="tabuada" type="number">
-            <button onclick="calcular()">Calcular</button>
+            <input type="submit" value="Enviar">
         </form>
 
     </div class="tabuada">
