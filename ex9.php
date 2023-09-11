@@ -50,8 +50,8 @@
         <h4>Digite os dados pedidos</h4>
 
         <form method="POST">
-            <input name="tipo" id="tipo" type="text" placeholder="combustível">
-            <input name="litro" id="litro" type="number" placeholder="gasolina/álcool">
+            <input name="tipo" id="tipo" type="text" placeholder="gasolina/álcool">
+            <input name="litro" id="litro" type="number" placeholder="quantidade(L)">
             <input type="submit" value="Enviar">
         </form>
 
