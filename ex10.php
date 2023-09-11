@@ -68,10 +68,10 @@
                 echo "Requerer Aposentadoria";
             }
             elseif ((2023-$tempo) >= 30 ) {
-                echo "Requerer Aposentadoria";;
+                echo "Requerer Aposentadoria";
             }
             elseif ((2023-$idade) >=60 && (2023-$tempo) >= 25 ) {
-                echo "Requerer Aposentadoria";;
+                echo "Requerer Aposentadoria";
             }
             else{
                 echo "Não Requerer Aposentadoria";
