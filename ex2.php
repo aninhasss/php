@@ -61,11 +61,11 @@
             $num = $_POST["tabuada"];
     
             for($i=0; $i<=10; $i++){
-                if ($num>=0 && $num<=10){
+                if ($num>=0){
                     echo $num . " X " . $i . " = " . ($num*$i) . "<br>";      
                 }
             }
-            if ($num<0 || $num>10){
+            if ($num<0){
                 echo "ERRO: Escolha um valor diferente de " . $num;
             }       
         }
